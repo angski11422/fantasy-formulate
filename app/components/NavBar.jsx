@@ -1,14 +1,14 @@
 
 
 
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, } from "@nextui-org/navbar";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem} from "@nextui-org/navbar";
 import {Link} from "@nextui-org/link";
 import {Button, ButtonGroup} from "@nextui-org/button";
 
 
 export default function NavBar() {
   return (
-    <Navbar className="bg-emerald-200" isBordered>
+        <Navbar className="bg-emerald-200" isBordered>
             <NavbarContent >
                 <NavbarItem >
                     <Link href="#" >Home</Link>
